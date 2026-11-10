@@ -16,7 +16,7 @@ class MyTest(unittest.TestCase):
         self.page = page
 
     def test_foobar(self):
-        self.page.goto("https://microsoft.com")
+        self.page.goto("https://github.com/Lesjanka") #Заменил ссылку на свой профиль ГитХаба
         self.page.locator("#foobar").click()
         assert self.page.evaluate("1 + 1") == 2
 
