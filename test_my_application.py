@@ -11,7 +11,7 @@ from playwright.sync_api import Page, BrowserContext
 from pytest_playwright.pytest_playwright import CreateContextCallback
 
 def test_foo(page: Page, new_context: CreateContextCallback) -> None:
-    page.goto("https://example.com")
+    page.goto("https://github.com/Lesjanka")
     context = new_context()
     page2 = context.new_page()
 
